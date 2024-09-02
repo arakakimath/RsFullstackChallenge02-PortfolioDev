@@ -1,3 +1,42 @@
+#preintro {
+  background-color: var(--gray-200);
+}
+
 #intro {
+  max-width: 1366px;
+  margin-inline: auto;
+  padding-block: 120px 183px;
+  padding-inline: auto;
   background-image: url(../assets/Background_Intro.png);
+  background-size: cover;
+ 
+  > div {
+    justify-self: center;
+    justify-items: center;
+    
+  }
+}
+
+#profile-pic {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid var(--red);
+}
+
+#box-profile {
+  padding: 8px;
+  position: relative;
+  span {
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    background-image: url(../assets/Vector.png);
+    background-size: cover;
+    height: 25px;
+    width: 31px;
+  }
+  margin-bottom: 56px;
 }

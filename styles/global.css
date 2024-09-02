@@ -30,3 +30,15 @@
   --text-md: 400 16px/140% var(--font-family-3);
   --text-sm: 400 14px/140% var(--font-family-3);
 }
+
+h1, h2, h3 {
+  font: inherit;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
