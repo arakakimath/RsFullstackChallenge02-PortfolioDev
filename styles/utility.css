@@ -21,6 +21,11 @@
   }
 }
 
+.subtitle-purple {
+  font: var(--subtitle);
+  color: var(--purple);
+}
+
 .text-md {
   font: var(--text-md);
   color: var(--gray-500);
