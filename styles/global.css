@@ -47,3 +47,7 @@ h1, h2, h3 {
   max-width: 1366px;
   margin-inline: auto;
 }
+
+.bg-color-g200 {
+  background-color: var(--gray-200);
+}
