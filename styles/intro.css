@@ -3,18 +3,30 @@
 }
 
 #intro {
-  max-width: 1366px;
-  margin-inline: auto;
   padding-block: 120px 183px;
   padding-inline: auto;
   background-image: url(../assets/Background_Intro.png);
   background-size: cover;
+  position: relative;
  
   > div {
     justify-self: center;
     justify-items: center;
     
+    h2 {
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 56px;
+      max-width: 680px;
+    }
   }
+  
 }
 
 #profile-pic {
@@ -39,4 +51,30 @@
     width: 31px;
   }
   margin-bottom: 56px;
+}
+
+#intro-footer {
+  gap: 16px;
+  div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    img {
+      height: 24px;
+      width: 24px;
+    }
+
+    padding: 8px 16px;
+    background-color: var(--gray-300);
+    border-radius: 16px;
+  }  
+}
+
+#arrow-down {
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  right: 667px;
+  bottom: 57px;
+  background-image: url(../assets/icons/Vector.svg);
 }
