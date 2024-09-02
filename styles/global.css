@@ -59,3 +59,7 @@ h1, h2, h3 {
 .bg-color-g300 {
   background-color: var(--gray-300);
 }
+
+a {
+  text-decoration: none;
+}
