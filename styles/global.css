@@ -51,3 +51,7 @@ h1, h2, h3 {
 .bg-color-g200 {
   background-color: var(--gray-200);
 }
+
+.bg-color-g100 {
+  background-color: var(--gray-100);
+}
