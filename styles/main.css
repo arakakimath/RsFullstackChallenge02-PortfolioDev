@@ -1,0 +1,36 @@
+main {
+  margin-inline: auto;
+  justify-items: center;
+  div:nth-child(1) {
+    justify-items: center;
+    gap: 8px;
+  }
+
+  padding-block: 72px 144px;
+  gap: 56px;
+
+  div:nth-child(2) {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:24px;
+    > div{
+    padding-inline: 12px;
+    padding-block: 12px 17px;
+    background-color: var(--gray-300);
+    border-radius: 12px;
+
+    h2 {
+      margin-block: 24px 8px;
+    }
+
+    img {
+      width: 306px;
+      height: 156px;
+    }
+    
+    div {
+      width: 306px;
+    }
+    }
+  }
+  
+}
